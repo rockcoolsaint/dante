@@ -1,0 +1,187 @@
+#deliveryInformation{
+	width:350px;
+	padding:15px;
+	background-color: white;
+	padding-top: 20px;
+	margin-top: 100px;
+	margin-left: 50px;
+	max-height: 540px;
+}
+.vvsi{
+	margin-top: 20px;
+}
+.mert{
+	display:inline-block;
+	margin-left:10px;
+	font-size: 1.8em;
+}
+.mert:hover{
+	cursor: pointer;
+	color:#9c1c26;
+}
+.isop{
+	width:100%
+}
+.isop .form-controli{
+	font-size: 16px;
+    width: 100%;
+    min-width: 260px;
+    padding-left: 20px;
+}
+.isop .bbd{
+	justify-content: space-between;
+	height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.2);
+    margin: 15px 8px 0 9px;
+	align-items: center;
+	justify-content: stretch;
+	z-index: 1;
+	position: relative;
+	padding-left: 8px;
+	width: 100%;
+}
+.isop .ll{
+	border: none;
+    display: flex;
+    justify-content: center;
+	width: 40px;
+	color:black;
+
+}
+.isop .holder{
+	visibility:true;
+	opacity:1;
+	width:100%;
+	position: absolute ;
+	top:42px;
+}
+#addCard:hover{
+cursor: pointer;
+}
+.carddetails{
+	margin-top: 30px;
+	font-size: 1em;
+	color: black;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
+.carddetailsheader{
+	margin-left: -10px;
+}
+#card-logo{
+	display:inline-block;
+	font-size: 2em;
+}
+#card-number{
+	display:inline-block;
+	margin-left: 10px;
+}
+.btn-Holder{
+	padding-left:10px;
+	padding-right:10px;
+}
+.btn-Holder button{
+width:100%;
+height: 40px;
+background-color: white;
+border:1px solid grey;
+margin-bottom:10px;
+}
+#d-info{
+	color:black;
+	line-height: 1em;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom: 0;
+    margin-top: 50px;
+}
+#deliveryInformation{
+	color:black;
+	line-height: 1em;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom: 0;
+    margin-top: 30px;
+}
+.infoholder{
+	width:100%;
+	position: relative;
+	margin-top: 20px;
+	font-size: 1.5em;
+	color:grey;
+	padding-left:10px;
+	padding-right:10px;
+}
+.inputs{
+	width:100%;
+	padding-left: 50px;
+	height: 40px;
+	font-size: 0.7em;
+	border:none;
+	border-radius: 5px;
+}
+.icon{
+	position: absolute;
+	top: 8px;
+    left: 20px;
+}
+
+
+.inputs:focus{
+	outline:none;
+}
+.l-icon-small{
+	font-size: 0.7em;
+    top: 8px;
+}
+.input-add{
+	color:black;
+	width: 100%;
+    padding-left: 50px;
+	height: 40px;
+	font-size: 0.8em;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+@media(max-width:783px){
+	#deliveryInformation{
+		margin:0;
+		width:100%;
+		border: 1px solid white;
+		padding: 0;
+	}
+	#d-info,.carddetails,.infoholder{
+		display: none;
+	}
+	.ishi{
+		display: none;
+	}
+	.isop .bbd{
+		border-radius: 0;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		margin: 0;
+		padding: 0;
+	}
+	.isop .form-controli{
+		font-size: 14px;
+	}
+	.isop .holder{
+		top:42px;
+		width:100%;
+	}
+	.carti{
+		max-width:100%
+	}
+	.generalDescription{
+		max-width:auto;
+	}
+}
+@media(max-width:414px){
+	.generalDescription{
+		max-width:200px
+	}
+}

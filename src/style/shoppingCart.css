@@ -1,0 +1,116 @@
+.ShoppingCartHolder{
+  padding: 10px;
+  filter: drop-shadow(rgba(16, 25, 30, 0.08) 0px 1px 4px);
+  background-color: rgba(255,255,255,1);
+  width: 350px;
+  margin-top:10px;
+}
+
+.ShoppingCartHolder h2{
+  padding-left: 8px;
+}
+
+.ShoppingCartHolder::before {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  content: "";
+  bottom: 100%;
+  top:12px;
+  left: calc(50% - -90px);
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+  margin-left: -9px;
+  border-bottom-color: rgb(255, 255, 255) !important;
+  border-width: 9px !important;
+}
+.carti{
+	display:flex;
+	justify-content: space-between;
+	max-width: 300px
+}
+.carti input{
+	max-height: 60px;
+	max-width: 50px;
+	padding-left: 10px;
+	margin-right: 10px;
+	border: none !important;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bolder;
+}
+#z{
+	min-height: 50px;
+	padding: 30px;
+	text-align: center;
+}
+.descriptionHolder{
+	display:flex !important;
+	justify-content: space-between;
+}
+.generalDescription{
+  width:200px;
+  font-weight: 900;
+}
+.item{
+  position: relative;
+  padding: 10px 0;
+}
+.cancelBtn{
+	position: absolute;
+	font-size: 1.5em;
+	top:11px;
+	right: 5px;
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+.cancelBtn:hover{
+	text-decoration: none;
+	color:#9c1c26;
+	cursor:pointer;
+}
+.Totalcost{
+	display: flex;
+  justify-content: space-between;
+  padding: 0 8px 26px 8px;
+  font-weight: bold;
+}
+.Totalcost .total-price {
+  color:#9c1c26;
+}
+.btn-big{
+  width:100% !important;
+  border-radius: 28px;
+  height: 56px;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-big:hover {
+  background-color:#9c1c26 !important;
+  color: #fff !important;
+}
+
+.cost {
+  font-size: 14px;
+  letter-spacing: -0.16px;
+  font-weight: 500;
+  line-height: normal;
+  font-weight: bolder;
+  color: #9c1c26;
+}
+
+.lastcost{
+	margin-right:-10px;
+	margin-left:-10px;
+	padding: 0 10px;
+}
+@media(max-width:783px){
+	.cancelBtn{
+		display: none;
+	}
+}

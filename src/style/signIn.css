@@ -1,0 +1,338 @@
+.signInPopup{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	min-height: 100%;
+	z-index: 400;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-y: scroll;
+}
+.a--btn{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    display: flex;
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c1c26 !important;
+    border: 1px solid #9c1c26 !important;
+}
+.ee{
+	display: block;
+    background-color: #9c1c26;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    text-align: center;
+}
+.ef{
+	margin-top: -20px;
+    margin-left: 10px;
+    display: block;
+    font-size: 10px;
+    color: #9c1c26;
+}
+.sp{
+	margin-bottom: 30px;
+}
+.signInPopup a{
+	color: #9c1c26;
+	font-size: 13px;
+}
+.signInPopup a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.white-background{
+	background-color: white;
+	max-height: 500px;
+}
+.m-position-fix{
+	position: relative;
+	z-index: 1 !important;
+}
+.loader{
+  animation-name: loading;
+  animation-duration: 0.5s;
+  animation-delay:0;
+  animation-iteration-count: infinite;
+  display: inline-block;
+}
+@keyframes loading{
+  0%{-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+  25%{-ms-transform: rotate(90deg);-webkit-transform: rotate(90deg);transform: rotate(90deg);}
+  50%{-ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+  75%{-ms-transform: rotate(270deg);-webkit-transform: rotate(270deg);transform: rotate(270deg);}
+  100%{-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+.load{
+  pointer-events: none;
+}
+#headingHolder{
+display: flex;
+justify-content: center;
+}
+#headingHolder p{
+	margin-top: 16px;
+}
+#cardNumberHolder p{
+text-align: left;
+}
+#CVVNumber{
+	width:50%;
+	margin-right: 0;
+}
+#imageHolder img{
+	width:51px;
+	height:32px;
+	margin-left: 5px;
+}
+#info,.otherinfoHolder,.YearDate{
+	display: flex;
+	justify-content: space-between;
+
+}
+.cvvinfo{
+	position: relative;
+	width: 50%;
+}
+#CVVNumber{
+	width:20%;
+	position: absolute;
+	right: 0;
+	top:0;
+	align-self: right;
+}
+#MonthNumber{
+	margin-right: 10px;
+	padding: 2px;
+	width:70%;
+}
+.YearDate input{
+	padding-left:20px;
+}
+
+.popupHolder{
+	background: white;
+	max-width: 435px;
+	border-radius: 5px;
+	box-shadow: rgba(34, 34, 34, 0.15) 0px 2px 20px 0px;
+}
+
+.popupHolder .signin-modal {
+	padding: 48px 36px 21px 36px;
+}
+
+.popupHolder .new-user {
+	padding: 8px 36px 0px 36px;
+}
+
+.new-user p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.SignUpPopupHolder{
+	margin-top: 30px;
+	background: white;
+	width: 500px;
+	border-radius: 5px;
+	box-shadow: rgba(34, 34, 34, 0.15) 0px 2px 20px 0px;
+}
+
+.SignUpPopupHolder .signup-modal {
+	padding: 28px 26px 11px 26px;
+}
+
+input:-webkit-autofill{
+	background-color: white !important;
+}
+.AddcardPopupHolder{
+	width:425px;
+	background-color:white;
+	border-radius: 5px;
+}
+.la{
+	margin: 10px 10px;
+    display: block;
+}
+.formField{
+	padding-left: 30px;
+    padding-right: 30px;
+    max-width: 100%;
+}
+
+.formField button{
+	width:100%;
+	height: 48px;
+	border-radius: 28px;
+	text-transform: uppercase;
+  font-weight: 600;
+	line-height: normal;
+	margin-top: 10px;
+}
+.formField p{
+	text-align: center;
+}
+#topPart{
+	top:0;
+	left:0;
+	right:0;
+	position: relative;
+	height:50px;
+}
+#topPart>p{
+	width:34%;
+	left:30%;
+	top:0;
+	text-align: center;
+	font-size: 2em;
+	position: absolute;
+}
+#topPart>a{
+	position: absolute;
+	right:20px;
+	top:10px;
+	color:#9c1c26;
+	cursor: pointer;
+	text-decoration: none;
+}
+#topPart img {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+  bottom: 5px;
+  cursor: pointer;
+}
+
+#topPart .text {
+	position: relative;
+	top: 40px;
+  text-align: center;
+  font-size: 1em;
+  padding-top: 1em;
+}
+.lkjq{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+#sign-btn{
+	margin-left: 5px;
+	text-transform: uppercase;
+}
+.formField input{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 40px;
+	padding-left: 10px;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.formField #FirstNamei {
+	margin-top: 15px;
+}
+
+.formField #SignInemail {
+	margin-top: 70px;
+}
+.formField input:focus{
+	outline: none;
+	border-bottom: 2px solid #b94a55
+}
+.overlay {
+	position: absolute;
+	z-index: -1;
+	background-color: rgb(255, 255, 255, 0.63);
+	width: 100%;
+	height: 100%;
+}
+
+@media(max-width:503px){
+	.popupHolder{
+		width: 450px;
+	}
+	.SignUpPopupHolder{
+		width: 500px;
+	}
+	.formField{
+		max-width: 519px;
+	}
+}
+@media(max-width:445px){
+	.popupHolder{
+		width: 430px;
+	}
+	.SignUpPopupHolder{
+		width: 500px;
+	}
+	.formField{
+		max-width: 519px;
+	}
+}
+@media(max-width:398px){
+	.popupHolder{
+		width: 390px;
+	}
+	.AddcardPopupHolder{
+		width:100%;
+	}
+	#imageHolder img{
+		display:none;
+	}
+	#topPart>p{
+		font-size:1.5em;
+	}
+	#CVVNumber{
+		width:35%;
+	}
+	
+}
+@media(max-width:354px){
+	.popupHolder{
+		width: 350px;
+	}
+	
+}
+@media(max-width: 473px){
+	.SignUpPopupHolder {
+		width: 467px;
+	}
+}
+@media(max-width:436px){
+	.SignUpPopupHolder {
+		width: 433px;
+	}
+}
+@media(max-width:402px){
+	.SignUpPopupHolder {
+		width: 399px;
+	}
+}
+@media(max-width:371px){
+	.SignUpPopupHolder {
+		width: 365px;
+	}
+}
+@media(max-width:350px){
+	.SignUpPopupHolder {
+		width: 375px;
+	}
+}
+@media(max-width:338px){
+	.SignUpPopupHolder {
+		width: 355px;
+	}
+}

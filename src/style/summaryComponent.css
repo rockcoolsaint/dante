@@ -1,0 +1,52 @@
+.summary-holder{
+	background-color: #F0F0F0;
+	position: relative;
+	margin-top: 500px;
+	padding: 0 10.5rem;
+}
+.summary-holder .row{
+	padding:0 !important;
+	padding-top: 5% !important;
+	padding-bottom: 2% !important;
+}
+
+.image4{
+	width:50px;
+	height: 50px;
+	display: block;
+	margin:auto;
+}
+.summary-holder .col-sm-4{
+	text-align: center;
+}
+.summary-p{
+	font-size: 15px;
+	text-align: left;
+	padding-bottom: 2rem;
+}
+
+.summary-holder .summary-text{
+	text-align: center;
+	font-size: 2em;
+	color: #9c1c26;
+	margin-top: 0;
+}
+.s-text{
+	font-size: 17px;
+	color: black;
+}
+
+.summary-appear {
+	transform: translate(100%);
+  }
+  
+  .summary-appear.summary-appear-active {
+	transform: translate(0%);
+	transition: transform 2000ms ease-in-out;
+  }
+
+	@media(max-width: 767px) {
+		.summary-holder {
+			padding: 0;
+		}
+	}

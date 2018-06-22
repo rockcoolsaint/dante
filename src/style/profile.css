@@ -1,0 +1,213 @@
+    /*Layout*/
+.l-profilepage{
+	position: relative;
+	padding: 0;
+	border:1px solid;
+	border-color: transparent;
+}
+.l-menu{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	width:100%;
+	background-color: white;
+}
+.l-menu-border{
+	border-bottom: 2px solid #e1e1e1;
+}
+.l-menu-item{
+	text-align: center;
+    padding: 18px;
+    width:25%;
+}
+.l-menu-item:hover{
+	cursor: pointer;
+}
+.l-menu-item:active{
+	background-color: #9c1c26;
+	color:white;
+}
+
+.l-grey-background{
+	background-color: #e1e1e1;
+}
+.l-white-background{
+	background-color: white;
+}
+.l-space-around{
+	margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.l-height{
+	height: 50px;
+}
+.l-select{
+	background-color: #9c1c26;
+	color:white;
+	pointer-events: none;
+}
+.l-profile-photo-holder{
+	position: relative;
+	margin-left: 20%;
+}
+
+/*MODULES*/
+.m-content-holder{
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 100%;
+	margin: 0 !important;
+	padding-top: 50px;
+	background-color: white;
+}
+.m-left{
+	padding: 20px;
+	min-height: 400px;
+	
+}
+.profile-photo{
+	width:150px;
+	border-radius: 50%;
+	cursor: pointer;
+	border:5px solid grey;
+	position: absolute;
+	top:0;
+
+}
+.profile-photo:hover{
+	border:5px solid #9c1c26;
+}
+.profile-photo-selector{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top:0;
+	z-index: 1;
+	border:1px solid #e1e1e1;
+	border-radius: 50%;
+	cursor: pointer;
+	display: none;
+	opacity: 0;
+}
+
+.m-right{
+	padding: 20px;
+	border-left: 1px dotted;
+	padding-right: 0;
+}
+#FirstName,#LastName,#MobileNumber,#email,#ConfirmPassword,#newPassword{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	height: 32px;
+    padding-left: 20px;
+    width:46%;
+    display: inline-block;
+}
+#oldPassword{
+	margin-top: 60px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 562px;
+	height: 32px;
+    padding-left: 20px;
+    display:inline-block;
+    width:95%;
+}
+.m-right button{
+	display: block;
+	position: absolute;
+	right:0;
+	width: 135px;
+	margin-bottom: 20px
+}
+
+.m-row-width{
+	width:100%;
+	padding-top: 40px;
+	margin:0 !important;
+	background-color: white;
+	padding-right: 10%;
+	padding-left:10%;
+}
+.m-equalwidth{
+	width:70%;
+	display: inline-block;
+}
+
+.m-header-info{
+	
+}
+.m-header-info>button{
+	display: block;
+	margin: 15px;
+	width:274px;
+}
+.m-header-info>input{
+	display: block;
+	margin: 15px;
+	width:274px;
+}
+.m-table-style{
+	width:100%;
+}
+.m-table-style tr,th,td{
+	border:1px solid;
+	text-align: center;
+}
+.m-history-holder{
+	padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+}
+.m-content-holder h4{
+border-bottom: 1px solid #e1e1e1;
+}
+@media(max-width:745px){
+	#menuItem-three{
+		padding-top: 0px;
+	}
+}
+@media(max-width:732px){
+	#menuItem-four{
+		padding-top: 0px;
+	}
+}
+@media(max-width:543px){
+	#menuItem-two{
+		padding-top: 0px;
+	}
+	.l-menu{
+		padding-left: 2px;
+	}
+}
+@media(max-width:722px){
+	#FirstName, #LastName, #MobileNumber, #email, #ConfirmPassword, #newPassword{
+		width: 95%;
+	}
+}
+@media(max-width:545px){
+	.m-content-holder{
+		padding-left: 20px;
+	}
+}
+
+@media(max-width:414px){
+	#menuItem-two{
+		padding-left: 0px;
+	}
+	#menuItem-three{
+		padding-left: 0px;
+	}
+	#menuItem-four{
+		padding-left: 0px;
+	}
+}
+@media(max-width:410px){
+	.m-table-style{
+		margin-left: -23px;
+	}
+}

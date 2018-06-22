@@ -1,0 +1,256 @@
+.mobileAppImage-holder{
+	background-color: white;
+	margin-top: 200px;
+}
+
+.mobileAppImage-holder .row{
+	padding:0 !important;
+	margin:0 !important;
+	margin-bottom: 145px !important;
+}
+.mobileAppImage-holder .col-sm-4{
+	position: relative;
+	padding-left: 118px !important;
+}
+
+.mobileAppImage-holder .statements{
+	margin-top: 90px;
+	margin-left: 12rem;
+}
+
+.statements button {
+	cursor: pointer;
+	text-align: center;
+	height: 56px;
+	color: rgb(255, 255, 255);
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	align-items: center;
+	min-width: 188px;
+	width: 100%;
+	background-color: #9c1c26;
+	margin: 0px;
+	border-radius: 28px;
+	outline: none;
+	border: 1px solid #9c1c26;
+	text-transform: uppercase;
+}
+
+.statements button:hover {
+	background-color: #9c1c26 !important;
+}
+
+.statements .google img {
+	width: 23px;
+	height: 24px;
+}
+
+.statements .apple img {
+	width: 24px;
+	height: 24px;
+	margin-bottom: 5px;
+}
+
+.statements span {
+	padding: 0 1.3em;
+	font-size: 1.2rem;
+}
+
+.statements a {
+	display: inline-block;
+}
+
+.statements .google {
+	margin: 0 4rem;
+}
+
+.pic{
+	height: 600px;
+	position: absolute;
+	top: -180px;
+	left: -15%;
+	
+}
+.left-side{
+	text-align: right;
+	left: -40px;
+	display: block;
+}
+.right-side{
+	text-align: left;
+	right: 40px;
+	display: block;
+}
+
+.phoneimage{
+	width: 75%;
+	margin-top: -200px;
+	margin-left: 195px;
+}
+.words > h3 {
+	font-size: 4.5rem;
+  margin-top: -105px;
+    
+}
+.words > p {
+	font-size: 15px;
+    margin-top: 20px;
+	width: 600px;
+	margin-bottom: 30px;
+}
+.appleicon{
+	width: 35px;
+	height: 35px;
+	
+}
+.googleicon{
+	width: 35px;
+	height: 35px;
+	margin-left: 20px;
+}
+
+@media(max-width:1258px){
+	.pic{
+		left: -16%;
+	}
+}
+@media(max-width:1238px){
+	.pic{
+		left: -19%;
+	}
+}
+@media(max-width:1171px){
+	.pic{
+		left: -24%;
+	}
+}
+@media(max-width:1123px){
+	.pic{
+		left: -29%;
+	}
+}
+@media(max-width:1048px){
+	.pic{
+		left: -33%;
+	}
+}
+@media(max-width:996px){
+	.pic{
+		left: -36%;
+	}
+}
+@media(max-width:979px){
+	.pic{
+		left: -40%;
+	}
+}
+@media(max-width:923px){
+	.pic{
+		left: -44%;
+	}
+}
+@media(max-width:891px){
+	.pic{
+		left: -47%;
+	}
+}
+@media(max-width:875px){
+	.pic{
+		left: -37%;
+	}
+}
+@media(max-width:833px){
+	.pic{
+		left: -40%;
+	}
+}
+
+@media(max-width:875px){
+	.pic{
+		height:525px;
+	}
+}
+@media(max-width:886px){
+	.left-side, .right-side{
+		top: -185px;
+	}
+}
+@media(max-width:1010px){
+	.statements{
+		margin-left: 20px;
+	}
+}
+
+@media(max-width:767px){
+	.pic{
+		display:none;
+	}
+	.left-side, .right-side{
+		text-align: center;
+		left: -59px;
+		top: -199px;
+	}
+	.app{
+		display: flex;
+    justify-content: center;
+	}
+	.phoneimage{
+		display: none;
+		margin-top: 0;
+	}
+	.words > h3{
+		text-align: center;
+		font-size: 4rem
+	}
+	.words > p{
+		text-align: left;
+		width: 87%;
+		margin-left: 40px;
+	}
+	.mobileAppImage-holder {
+    grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+
+	.mobileAppImage-holder .statements{
+		margin-left: 0px;
+	}
+	.mobileAppImage-holder .row {
+		margin-bottom: 65px !important;
+	}
+	.statements .app {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.statements .google {
+		margin: 0;
+		margin-top: 3rem;
+	}
+	.statements a {
+		width: 100%;
+		padding: 0 4rem;
+	}
+	.words > p {
+		margin-bottom: 0;
+	}
+}
+@media(min-width:768px) and (max-width:1087px){
+  .mobileAppImage-holder {
+    grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	.mobileAppImage-holder .mobile{
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	.phoneimage {
+		margin-bottom: 4rem;
+	}
+	.statements a {
+		display: inline-block;
+	}
+}

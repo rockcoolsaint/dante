@@ -1,0 +1,159 @@
+.footer{
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 5rem 9.5rem 0 10rem;
+  z-index: 20;
+}
+
+.footer .logo {
+  grid-column: 1/2;
+  grid-row-start: 1;
+}
+
+.footer .logo img {
+  width: 20rem;
+}
+
+.footer .content {
+  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .content ul li {
+  padding: 1rem 0;
+}
+
+.footer .content ul li a {
+  color: rgb(143, 149, 163);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer .content h3 {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer .copy-right {
+  position: relative;
+  margin: 12rem 0 3rem 0;
+}
+
+.footer .copy-right ul {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer .copy-right ul li {
+  display: inline;
+  padding: 0 1em;
+}
+
+.footer .copy-right ul li a {
+  color: rgb(143, 149, 163);
+  cursor: pointer;
+}
+.zzvc{
+  cursor: default;
+}
+.zzvd{
+  cursor: pointer;
+}
+
+.apple{
+  width: 160px;
+  height: 46px;
+}
+
+.google{
+  width: 160px;
+  height: 46px;
+}
+.bukka2{
+  width: 14%;
+  height: 6%;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: -10px;
+}
+
+.footer a{
+  color: white;
+}
+
+.twitter{
+  padding-left: 10px;
+}
+
+.instagram{
+  padding-left: 10px;
+}
+
+.red{
+  color: #9c1c26;
+  font-size: 20px;
+}
+
+.red2{
+  font-size: 20px;
+}
+
+.col-sm-4>a:hover{
+  color: #9c1c26;
+  text-decoration: none;
+}
+
+.footer2 li>a:hover{
+  color: #9c1c26;
+  text-decoration: none;
+}
+.row{
+  margin:0!important;
+}
+
+@media(max-width:425px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer .logo img {
+    margin-left: -1em;
+  }
+  .footer .logo {
+    grid-row: 1;
+  }
+  .footer .content {
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media(min-width:426px) and (max-width:1060px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer .logo img {
+    margin-left: -1em;
+  }
+  .footer .logo {
+    grid-row: 1;
+  }
+  .footer .content {
+    grid-row: 2;
+    grid-column-gap: 5rem;
+    margin-top: 2rem;
+  }
+}

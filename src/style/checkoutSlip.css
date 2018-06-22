@@ -1,0 +1,115 @@
+#checkoutSlip{
+	background-color: white;
+	padding: 20px;
+	padding-top:150px;
+	width:380px;
+	position: relative;
+	
+}
+
+.order-btn{
+	width:60%;
+	height:50px;
+	margin-bottom: 30px;
+}
+.vinc{
+	color:black;
+}
+
+.add-info{
+	width: 380px;
+	border:none;
+	border-top:1px solid rgba(0,0,0,0.2);
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 0 -20px;
+}
+.add-info:hover,.add-info:focus{
+	outline: none;
+	color:rgb(0,0,0);
+}
+
+.Totalbreakdown{
+	display:flex;
+	justify-content: space-between;
+}
+.Totalbreakdown h4{
+	line-height: 0.5em;
+}
+#food-img{
+	max-width: 100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+	max-height: 254px
+}
+#food-card{
+	background-color: white;
+	position: relative;
+	margin-left: -20px;
+    padding: 20px;
+}
+#costing{
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+#small-screen-delivery-info{
+	display: none;
+}
+#underline{
+	display: none;
+}
+@media(max-width:783px){
+	#checkoutSlip{
+		width:100%;
+		padding: 10px;
+		margin-top: 0;
+		overflow-x: hidden;
+	}
+	#food-img,#order-call{
+		display:none;
+	}
+	#food-card{
+		text-align: center;
+	}
+	.order-btn{
+		width:100%;
+	}
+	#small-screen-delivery-info{
+		display: flex;
+		height:100px;
+		margin-bottom: 50px;
+	}
+	#ssmap{
+		width:150px;
+		position: relative;
+	}
+	#ssaddress,.inputsi,.input-addi{
+		width:100%;
+	}
+	.input-addi{
+		margin-bottom: 50px;
+		border:none;
+		padding-left: 10px;
+	}
+	.inputsi{
+		padding-left: 10px;
+		border:none;
+	}
+	.inputsi:focus{
+		outline: none;
+	}
+	.add-info{
+		width:115%;
+	}
+	#underline{
+		display:block;
+		width: 50px;
+		margin: auto;
+		border:1px solid;
+		margin-top: 25px;
+	}
+	#time{
+		margin-top: 20px;
+	}
+}

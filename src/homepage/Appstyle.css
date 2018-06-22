@@ -1,0 +1,202 @@
+.navbar{
+    background-color: #f0f0f0;
+    border-radius: 0px !important;
+  }
+  .bukkastyle{
+    width: 14%;
+    height: 6%;
+    z-index: 1;
+    position: relative;
+    top: -43px;
+    margin-left: 2%;
+  }
+  
+  .formcom Form{
+    width: 450px;
+    z-index: 1;
+    position: relative;
+    left: 55%;
+    top: -993px;
+    background-color: #f8f8f8;
+    border-top: 10px solid #f0f0f0;
+   
+  }
+  .formcom h3, .formcom h4{
+    text-align: center;
+  }
+  
+  .formcom .form-control{
+    margin-bottom: 10px;
+    margin-left: 24px;
+    width: 88% !important;
+    border-radius: 0px !important;
+  }
+  
+  .formcom>input{
+    
+    border-radius: 0px !important;
+    font-size: 20px !important;
+    border-left: 0px solid grey !important;
+    border-top: 0px solid grey !important;
+  }
+  
+  .select{
+    margin-bottom: 10px;
+    margin-left: 24px;
+    width: 88% !important;
+    height: 50px;
+    border-radius: 0px !important; 
+  }
+  
+  
+  #select-meal{
+    color: #888888 !important;
+  }
+  .one{
+    margin-left: 24px;
+    margin-bottom: 10px;
+    width: 88% !important;
+    height: 50px;
+    border-radius: 0px !important;
+  }
+  .btn-bukka{
+    color: #9c1c26;
+  }
+  .condstyle{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: left !important;
+  }
+  
+  .condistyle{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+  }
+  .m-event-cont{
+    padding: 0 !important;
+    position: relative;
+  }
+  .Event-img-holder>img{
+    width: 100%;
+    height: 700px;
+    top: 220px;
+    z-index: 0;
+    position: relative;
+  }
+  
+  
+  .firststyle{
+    z-index: 1;
+    top: 75%;
+    left: 3%;
+    right: 0;
+    position: relative;
+    padding-top: 124px;
+  }
+.firststyle>h1{
+  font-size: 3.5em;
+}
+  
+  .branchesstyle{
+    background-color: white;
+    margin-left: 10%;
+    padding-bottom: 0;
+    z-index: 1;
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 80px;
+    top: 1188px;
+    padding-right: 70px;
+  }
+  
+  
+
+  .lightstyle{
+    font-weight: 100;
+  }
+  
+  .formcom>input{
+    font-size: 20px !important;
+    color: #888888;
+  }
+  
+  .btn-primary{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    text-align: left !important;
+    border-radius: 0px !important;
+  }
+  .arrow1style{
+    margin-left: 240px;
+  }
+  
+  .arrow2style{
+    margin-left: 90px;
+  }
+  
+  .iconsstyle{
+    text-align: center;
+    font-size: 3em;
+    width: 54%;
+    display: block;
+    color: blue;
+  }
+  
+  
+  
+  .autoCon1{
+    background-color:white;
+    width: 88% !important; 
+    margin-left: 24px;
+    margin-top: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .autoCon2{
+    color: black; 
+    font-size: 1em;
+  }
+
+  @media(max-width:1011px){
+    .firststyle>h1{
+      text-align: center;
+    }
+    .formcom Form{
+      left: 24%;
+      top: 250px;
+    } 
+    .m-hidden{
+      display:none;
+    }
+    .branchesstyle{
+      margin:0;
+      top:1283px;
+    }
+    .readystyle{
+      display:none;
+    }
+  }
+  .dev{
+
+  }
+  @media(max-width:767px){
+   .branchesstyle{
+      display: none;
+    }
+
+    .iconsstyle{
+      display: block;
+      margin: auto
+    }
+    .formcom Form{
+      left: 0;
+      top: 250px;
+      right: 0;
+      width:auto;
+      margin-right: 0!important;
+    }
+  }

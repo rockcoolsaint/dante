@@ -1,0 +1,35 @@
+#no-chef-available{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    height: inherit;
+}
+#no-chef-available h3{
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+#no-chef-available h5{
+    line-height: 1.5em;
+}
+.deven{
+    position: relative;
+    height:100%;
+}
+#no-chef-available-holder{
+    padding: 30px;
+    padding-top: 110px;
+    background: white;
+    width: 450px
+}
+
+@media(max-width:783px){
+    #no-chef-available-holder{
+        width:300px;
+    }
+}
+@media(max-width:500px){
+    #no-chef-available-holder{
+        width:200px;
+    } 
+}

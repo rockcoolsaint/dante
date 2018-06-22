@@ -1,0 +1,254 @@
+.cuisine-min-header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(244, 220, 220);
+}
+
+.cuisine-min-header.other-page {
+  background-color: #fff;
+}
+
+.cuisine-min-header.cuisine-personal-page {
+  background-color: #fff;
+}
+
+.cuisine-max-header {
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(244, 220, 220);
+}
+
+.nav-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 23px;
+}
+
+.logo-section #bukka-logo {
+  width: 150px;
+}
+
+#search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.logo-section .search-input {
+  position: relative;
+  top: 12px;
+}
+
+.logo-section input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 16px;
+  color: rgb(45, 49, 56);
+}
+
+.logo-section {
+  display: flex;
+  padding-left: 108px !important;
+}
+
+.button-section {
+  position: absolute;
+  right: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.button-section button {
+  height: 32px;
+  width: 85px;
+  border-radius: 16px;
+  white-space: nowrap;
+  background-color: transparent;
+  border:1px solid rgba(0,0,0,0.2);
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.72px;
+  line-height: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 16px;
+  font-family: 'Comfortaa', cursive;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-width: 1px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cuisine-header .description-section {
+  padding-left: 117px !important;
+  max-width: 1024px !important;
+}
+
+.description-section img {
+  transform: translateX(370px) !important;
+  width: 100%;
+  position: relative;
+  padding: 0 2.5rem;
+  bottom: 0px;
+}
+
+.description-section span {
+  font-size: 6.5rem;
+  line-height: 0.97;
+  letter-spacing: -3.5px;
+  font-weight: 700;
+  position: relative;
+  top: 8.5rem;
+}
+
+.sign-up {
+  outline: none;
+  background-color: #9c1c26 !important;
+  border:1px solid #9c1c26 !important;
+  color:rgb(244, 220, 220);
+  height: 40px;
+  background-color: white;
+  border:1px solid grey;
+}
+
+.sign-up:hover{
+  background-color:#9c1c26 !important;
+}
+
+.sign-in:hover{
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+#cuisine-dropdown {
+  background-color: #fff;
+  width: 300px;
+  margin-left: 1em;
+  margin-top: 4.8em;
+  box-shadow: rgba(34, 34, 34, 0.15) 0px 2px 20px 0px;
+  z-index: 99999;
+  position: fixed;
+}
+
+#cuisine-dropdown h3{
+  color:darkgray;
+  padding: 0.8em 1em;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#cuisine-dropdown a{
+  color:#212121;
+  padding: 0.7em 1em;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+#cuisine-dropdown .menu .col-lg-6 {
+  padding-left: 0.5em;
+}
+
+@media(max-width: 1060px) {
+  .nav-section input {
+    display: none;
+  }
+}
+
+@media(max-width: 767px) {
+  .button-section .sign-up {
+    display: none;
+  }
+  .button-section {
+    top: 8px;
+    right: 20px;
+    width: auto;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+  .button-section {
+    right: 20px;
+  }
+}
+
+@media(max-width: 653px) {
+  .logo-section {
+    padding-left: 15px;
+  }
+
+  .cuisine-header .nav-section {
+    top: 10px;
+    padding-left: 0em;
+  }
+
+  .cuisine-header .description-section {
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+  }
+
+  .description-section span {
+    font-size: 1.8em;
+    line-height: 1.2;
+    flex: 1 0 auto;
+    top: 1em;
+    left: 0.2em;
+  }
+
+  .description-section img {
+    transform: translateX(10px);
+    padding: 0em;
+    bottom: 0px;
+    flex: 0 0 50px;
+  }
+}
+
+@media(min-width: 654px) and (max-width: 1200px) {
+  .logo-section {
+    padding-left: 0px;
+  }
+
+  .cuisine-header .description-section {
+    padding-left: 40px;
+  }
+
+  .description-section span {
+    top: 5rem;
+    font-size: 5.5rem;
+  }
+
+  .description-section img {
+    transform: translateX(200px);
+    padding: 0 8.5rem;
+  }
+}
+
+@media(min-width: 1201px) and (max-width: 1439px) {
+  .logo-section {
+    padding-left: 45px;
+  }
+
+  .cuisine-header .description-section {
+    padding-left: 80px;
+  }
+
+  .description-section span {
+    top: 7rem;
+    font-size: 5.5rem;
+  }
+
+  .description-section img {
+    transform: translateX(200px);
+    padding: 0 8.5rem;
+  }
+}

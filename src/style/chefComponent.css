@@ -1,0 +1,41 @@
+
+/*.chef-Holder{
+	background-color: white;
+	position: relative;
+	margin-top: 200px;
+}
+.chef-Holder img{
+	position: absolute;
+	top: -116px;
+	left:-37px;
+    max-height: 520px;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+}
+.m-left{
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+.chef-Holder .row{
+	padding: 0!important;
+	margin: 0 !important;
+	
+}
+
+.chef-color{
+	color: #9c1c26;
+}
+
+@media(max-width:767px){
+	.chef-Holder{
+		margin-top:0;
+	}
+	.m-right{
+		display: none;
+	}
+	.chef-Holder img{
+		display:none;
+	}
+}*/

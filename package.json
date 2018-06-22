@@ -1,0 +1,50 @@
+{
+  "name": "my-bukka",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "africaistalking": "^1.0.7",
+    "animated-scroll-to": "^1.2.2",
+    "axios": "^0.17.1",
+    "es6-promise": "^4.1.1",
+    "firebase": "^4.9.0",
+    "firebase-cli": "^1.2.0",
+    "global": "^4.3.2",
+    "isomorphic-fetch": "^2.2.1",
+    "leaflet": "^1.2.0",
+    "lodash": "^4.17.4",
+    "node-googl": "0.0.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0",
+    "react-dropdown": "^1.5.0",
+    "react-geocode": "0.0.9",
+    "react-google-maps": "^9.4.5",
+    "react-icons": "^2.2.7",
+    "react-places-autocomplete": "^5.4.3",
+    "react-preloader-icon": "^0.1.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-share": "^2.0.0",
+    "react-transition-group": "^1.2.1",
+    "react-transitions": "^1.0.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "tar": "^4.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "goo.gl": "^0.1.4"
+  }
+}

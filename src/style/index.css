@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Comfortaa', cursive;
+}
+.devi,.dev{
+  position: relative;
+}
+.min-length{
+  min-height: 400px;
+}
+html,body{
+  height:100%;
+}

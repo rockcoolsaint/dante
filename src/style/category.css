@@ -1,0 +1,83 @@
+.cuisine-categories h1 {
+  margin-top: 4em;
+  padding: 1.5em 0 0.5em 4em;
+  border-bottom: 1px solid rgba(217, 219, 224, 0.5);
+}
+
+.cuisine-categories .row {
+  margin-top: 3em !important;
+  margin-left: -2em !important;
+}
+
+.cuisine-categories h3 {
+  font-size: 16px;
+  letter-spacing: -0.48px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgb(45, 49, 56);
+  margin-bottom: 4px;
+}
+
+.cuisine-categories p {
+  font-size: 13px;
+  color: rgb(45, 49, 56);
+  margin-bottom: 55px;
+  padding-top: 4px;
+  color: #7e7e7e;
+}
+
+.cuisine-categories p span strong {
+  color: #7e7e7e;
+}
+
+.new-badge {
+  text-transform: uppercase;
+}
+
+@media(max-width: 1439px) {
+  .cuisine-categories h1{
+    padding-left: 1em;
+  }
+}
+
+@media(max-width: 770px) {
+  .cuisine-categories .row {
+    margin-left: 0em !important;
+  }
+}
+
+@media(min-width: 771px) and (max-width: 800px){
+  .cuisine-categories .row {
+    margin-left: -1em !important;
+  }
+}
+
+@media(min-width: 801px) and (max-width: 830px){
+  .cuisine-categories .row {
+    margin-left: -2em !important;
+  }
+}
+
+@media(min-width: 831px) and (max-width: 900px){
+  .cuisine-categories .row {
+    margin-left: -3.5em !important;
+  }
+}
+
+@media(min-width: 901px) and (max-width: 930px){
+  .cuisine-categories .row {
+    margin-left: -4.5em !important;
+  }
+}
+
+@media(min-width: 931px) and (max-width: 960px){
+  .cuisine-categories .row {
+    margin-left: -6em !important;
+  }
+}
+
+@media(min-width: 961px) and (max-width: 991px){
+  .cuisine-categories .row {
+    margin-left: -7em !important;
+  }
+}
